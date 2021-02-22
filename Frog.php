@@ -1,10 +1,13 @@
 <?php
-    class Animal{
+    class Frog{
         public $name;
-        public $legs = 2;
+        public $legs = 4;
         public $cold_blooded = 'false';
         public function __construct($name){
             $this->name = $name;
+        }
+        public function jump(){
+            echo "hop hop";
         }
     }
 ?>
